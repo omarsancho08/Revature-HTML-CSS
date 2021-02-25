@@ -42,7 +42,9 @@ header{
       background-color: #4aaaa5;
       color: white;
       margin: 0;
-      padding: 1px;
+      padding: 3px;
+      position: absolute;
+      top:0px;
   }
   p,a,ul,li{
     color:#777777;
@@ -82,4 +84,25 @@ header{
 
   label{
       color:#777777;
+  }
+
+
+  .btn{
+      color: #ffffff;
+      background-color: #4aaaa5;
+      width: 10%;
+  }
+
+
+  .banner{
+      background-color: #4aaaa5;
+      color:#ffffff;
+      position: relative;
+      bottom:65px;
+      left: 1.9%;
+      width:46.2%;
+      padding: 3px;
+      overflow: hidden;
+      float: left;
+      clear: both;
   }
